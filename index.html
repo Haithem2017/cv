@@ -1,9 +1,10 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <html>
 	<head>
 	    <title>Mon CV personnalisé</title>
 		<meta charset="utf-8"/>
-		<link rel = "stylesheet" href= "cv.css"/>
+		<link rel = "stylesheet" href= "cvhtml.css.css"/>
 	</head>
 	<body>
 		<div class = "page">
@@ -16,32 +17,36 @@
 					 permis B</p>
 				 </div>
 			     <div class = "photo">
-				     <img src= "cv.jpg" alt="photo moi"/> 
+				     <img src= "cv.png" alt="photo moi"/> 
 				 
 				 </div>
+			 </div>
+			 <div class = "TITRE" id="zz">
+			 
+			         <p><h1>Ingénieur double compétence Informatique/Structure (Génie Civil)</h1></p>
 			 </div>
 			 
 			 <div class="section">
 			     
 			     <h2>Formations</h2>
-			     <div class="SEC-GAUCHE" id ="gg">
+			     <div class="SEC-GAUCHE" id ="Formations">
 				 
-				     <p><strong>2016-2017</strong></p>
-					 <p><strong>2015-2016</strong></p>
-					 <p><strong>2014-2015</strong></p>
-					 <p><strong>2013-2014</strong></p>
-					 <p><strong>2012-2013</strong></p>
+	                 <div id="aa"><p><strong>2016-2017</strong></p></div>
+					 <div id="jj"><p><strong>2015-2016</strong></p></div>
+					 <div id="ii"><p><strong>2014-2015</strong></p></div>
+					 <div id="pp"><p><strong>2013-2014</strong></p></div>
+					 <div id="mm"><p><strong>2012-2013</strong></p></div>
 					 <p><strong>2011-2012</strong></p>
 					 
 				 </div>
-				 <div class = "SEC-DROITE">
+				 <div class = "SEC-DROITE" id ="dd">
 				 <div class = "contenu">
-				     <p><span>Master en CCI(en cours)</span><br/>Systèmes d'information (Merise, UML), Base de données (Oracle/SQL), Systèmes d'exploitation (Unix). Langages de programmation (Shell, C, C++ , Java). Systèmes d'information Collaboratifs. Introduction au Cloud Computing (IaaS, SaaS, PaaS), Virtualisation, Containers(Docker), OpenStack. Interopérabilité (OWL, Web services). Réseaux informatique. Administration et sécurité des systèmes et réseaux.</p>
-					 <p><span>Master 2 en BIVRD, Université ARTOIS</span><br/>Assainissement des infrastructures. Conception géométrique des infrastructures routières. Ouvrages d’art. Structures de chaussées et essais routiers. Environnement professionnel. Environnement de l’entreprise. Innovations et matériaux dans le GC. Outils numériques. Organisation de chantier. </p>
-					 <p><span>Master 1 en Génie Civil, Université ARTOIS</span><br/>Matériaux et sols. Structures et mécanique numérique. Thermique, Acoustique .Chantiers et ouvrages en Béton armé. Béton précontraint. Conception des charpentes. Ingénierie géotechnique et fondations. Equipements techniques.</p>
-					 <p><span>Master 2 en Ingénierie de la Construction, USTHB, Alger</span><br/>Pré-dimensionnement. Ferraillage des éléments secondaires. Etude dynamique. Etude sismique. Etude au vent. Etude sous charges verticales. Ferraillage des éléments porteurs. Etude de l’infrastructure.  </p>
-					 <p>Master 1 en Ingénierie de Construction, USTHB, Alger</p>
-					 <p>Licence en Génie Civil, USTHB, Alger</p>
+				     <p><h3>Master en CCI(en cours)</h3>Systèmes d'information (Merise, UML), Base de données (Oracle/SQL), Systèmes d'exploitation (Unix). Langages de programmation (Shell, C, C++ , Java). Systèmes d'information Collaboratifs. Introduction au Cloud Computing (IaaS, SaaS, PaaS), Virtualisation, Containers(Docker), OpenStack. Interopérabilité (OWL, Web services). Réseaux informatique. Administration et sécurité des systèmes et réseaux.</p>
+					 <p><h3>Master 2 en BIVRD, Université ARTOIS</h3>Assainissement des infrastructures. Conception géométrique des infrastructures routières. Ouvrages d’art. Structures de chaussées et essais routiers. Environnement professionnel. Environnement de l’entreprise. Innovations et matériaux dans le GC. Outils numériques. Organisation de chantier. </p>
+					 <p><h3>Master 1 en Génie Civil, Université ARTOIS</h3>Matériaux et sols. Structures et mécanique numérique. Thermique, Acoustique .Chantiers et ouvrages en Béton armé. Béton précontraint. Conception des charpentes. Ingénierie géotechnique et fondations. Equipements techniques.</p>
+					 <p><h3>Master 2 en Ingénierie de la Construction, USTHB, Alger</h3>Pré-dimensionnement. Ferraillage des éléments secondaires. Etude dynamique. Etude sismique. Etude au vent. Etude sous charges verticales. Ferraillage des éléments porteurs. Etude de l’infrastructure.  </p>
+					 <p><h3>Master 1 en Ingénierie de Construction, USTHB, Alger</h3></p>
+					 <p><h3>Licence en Génie Civil, USTHB, Alger</h3></p>
 				 </div>	 
 				 </div>
 				 
@@ -51,7 +56,7 @@
 			 
 			     <h2>Expérience</h2>
 				 
-				 <div class = "SEC-GAUCHE">
+				 <div class = "SEC-GAUCHE" id ="Expérience">
 				     <p><strong>2016:</strong></p>
 					 <p><strong>2015:</strong></p>
 					 <p><strong>2013:</strong></p>
@@ -60,10 +65,10 @@
 				 
 				 <div class = "SEC-DROITE">
 				 <div class = "contenu">
-				     <p><span>Stage dans un bureau d’études(BGM Ingenierie)</span><br/>Ingénieur structure : calcul de structures en béton armé et charpente métallique. Dessin assisté par ordinateur (Plans d’exécution), Géotechnique. Lyon 16 semaines</p>
-					 <p><span>Stage dans un bureau d’études(BATISTRUCTURE)</span><br/>Contribution dans des études de structures en béton armé et charpente métallique. Ainsi que des études de réhabilitation de bâtiments. Paris 8 semaines</p>
-					 <p><span>Formation aux montages de coffrage tunnel(BATIGEC)</span><br/>Assistance aux opérations de coffrage tunnel (voiles et planchers) structure de bâtiments R+10. Ainsi que le ferraillage et le coulage de planchers.Alger 2 semaines</p>
-					 <p><span>Chef de chantier(SARL M2A-)</span><br/>Assistance aux opérations de coffrage tunnel (voiles et planchers) structure de bâtiments R+10. Ainsi que le ferraillage et le coulage de planchers.Alger 5 semaines</p>
+				     <p><h3>Stage dans un bureau d’études(BGM Ingenierie)</h3>Ingénieur structure : calcul de structures en béton armé et charpente métallique. Dessin assisté par ordinateur (Plans d’exécution), Géotechnique. Lyon 16 semaines</p>
+					 <p><h3>Stage dans un bureau d’études(BATISTRUCTURE)</h3>Contribution dans des études de structures en béton armé et charpente métallique. Ainsi que des études de réhabilitation de bâtiments. Paris 8 semaines</p>
+					 <p><h3>Formation aux montages de coffrage tunnel(BATIGEC)</h3>Assistance aux opérations de coffrage tunnel (voiles et planchers) structure de bâtiments R+10. Ainsi que le ferraillage et le coulage de planchers.Alger 2 semaines</p>
+					 <p><h3>Chef de chantier(SARL M2A)</h3>Assistance aux opérations de coffrage tunnel (voiles et planchers) structure de bâtiments R+10. Ainsi que le ferraillage et le coulage de planchers.Alger 5 semaines</p>
 				 </div>
 				 </div>
 			</div>
@@ -73,7 +78,7 @@
 			
 			<div class = "section">	 
 			 <h2>Compétences</h2>
-			 <div class = "contenu">
+			 <div class = "contenu" id="Compétences">
 			     
 				 <p>Bureautique:Office (Microsoft Project, World, Excel), Robot®, AutoCAD®, CASTEM®, RT2012®, RDM6, Mensura®.</p>
 				 
