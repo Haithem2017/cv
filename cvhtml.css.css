@@ -1,0 +1,167 @@
+
+
+
+
+
+.page{
+	width:1050px;
+	margin:auto;
+	font-size: 16px;
+	font-family:'Source sans Pro', Calibri, Tahoma, sans-serif;
+	padding:40px;
+	border:4px solid #8a128e;
+	border-radius: 3px;
+	box-shadow: 2px 2px 3px black;
+	background-color: #FFFFFF;
+}
+
+.coorPhoto{
+	height:250px;
+}
+
+.info{
+	float:Left;
+}
+
+.photo{
+	float:Right;
+	height:250;
+}
+
+
+.section{
+	margin-bottom: 70px;
+	text-align: justify;
+}
+
+.SEC-GAUCHE{
+	float: left;
+	font-weight: bold;
+	font-size : 16px;
+}
+
+
+
+
+
+
+.SEC-DROITE{
+	margin-left: 110px;
+	margin-top: 44px;
+}
+
+.contenu{
+	margin-left: 50px;
+	font-weight: normal;
+	
+		
+}
+
+#Formations p{
+	margin-bottom: 56px;
+}
+
+#jj p{
+	margin-bottom: 90px;
+}
+#ii p{
+	margin-bottom: 74px;
+}
+
+#aa p{
+	margin-bottom: 113px;
+}
+
+#dd p{
+	margin-bottom: 29px;
+}
+#Expérience p{
+	margin-bottom: 62px;
+}
+
+#pp p{
+	margin-bottom: 74px;
+}
+
+#mm p{
+	margin-bottom: 15px;
+}
+
+
+strong{
+	font-size:26px;
+}
+
+
+#zz p{
+	text-align: center;
+
+	
+}
+
+h1{
+	font-size: 28px;
+	color: #1E90FF
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+
+h2{
+	font-size: 28px;
+	color: #8a128e;
+	text-transform: uppercase;
+	border-bottom: 3px solid #8a128e;
+}
+
+h3{
+	font-size: 20px;
+	color: #8a128e;
+	margin-bottom: 7px;
+}
+
+
+	
+ margin-left: auto;
+    margin-right: auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
